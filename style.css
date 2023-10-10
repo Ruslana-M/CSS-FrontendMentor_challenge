@@ -67,6 +67,19 @@
     text-align: center;
    
 }
+.reaction{
+    background-color: hsla(0, 86%, 92%, 0.872);
+
+}
+.memory{
+    background-color:hsla(39, 92%, 86%, 0.936) ;
+}
+.verbal{
+    background-color: hsl(168, 78%, 93%);
+}
+.visual{
+    background-color: hsl(235, 95%, 93%);
+}
 
 .pr{
     color: hsl(0, 100%, 67%);
