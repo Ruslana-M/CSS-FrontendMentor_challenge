@@ -28,9 +28,28 @@
     text-align: center;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    z-index: 2;
 
+}
+.score{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+
+    background-image: radial-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
 .number{
     font-size: 3em;
-    background-image: radial-gradient(circle,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0););
+}
+.white{
+    background-color: hsla(0, 0%, 100%, 0.422);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px; 
+    box-shadow: 5px 5px 15px hsl(221, 100%, 96%);
+    z-index: -1;
 }
