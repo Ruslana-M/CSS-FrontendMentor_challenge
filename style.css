@@ -12,6 +12,7 @@
     width: 100vw;
     background-color: azure;
     font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
 }
 .container{
     width: 100%;
@@ -48,8 +49,41 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
+
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px; 
     box-shadow: 5px 5px 15px hsl(221, 100%, 96%);
     z-index: -1;
+}
+.box{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+
+    border-radius: 18px;
+    border: transparent;
+    padding: 10px 10px;
+    text-align: center;
+   
+}
+
+.pr{
+    color: hsl(0, 100%, 67%);
+}
+.pm{
+    color: hsl(39, 100%, 56%);
+}
+.pv{
+    color: hsl(166, 100%, 37%);
+}
+.pvi{
+    color:  hsl(234, 85%, 45%);
+}
+
+button{
+    padding: 10px 40px;
+    border-radius: 18px;
+    color: white;
+    background-color: hsl(234, 85%, 45%);
 }
