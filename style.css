@@ -8,11 +8,13 @@
     box-sizing: border-box;
 }
 
- body{   height: 100vh;
+ body{   
+    height: 100vh;
     width: 100vw;
     background-color: azure;
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    display: flex;
 }
 .container{
     width: 100%;
@@ -27,16 +29,14 @@
     align-items: center;
     color: white;
     text-align: center;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    z-index: 2;
+    border-radius: 25px;
+    z-index: 1;
 
 }
 .score{
     height: 50%;
     width: 50%;
     border-radius: 50%;
-
     background-image: radial-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
 .number{
@@ -67,6 +67,9 @@
     text-align: center;
    
 }
+.sum{
+    text-align: left;
+}
 .reaction{
     background-color: hsla(0, 86%, 92%, 0.872);
 
@@ -96,8 +99,30 @@
 
 button{
     margin-top: 18px;
-    padding: 10px 110px;
-    border-radius: 18px;
+    padding: 5% 30%;
+    border-radius: 40px;
     color: white;
-    background-color: hsl(235, 67%, 11%);
+    background-color: hsl(235, 43%, 21%);
 }
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+}
+.blue{
+    width: 25%;
+
+}
+.white{
+    width: 25%;
+}
+}
+
